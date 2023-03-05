@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1b1b1b;
+    color: #fff;
+}
+.input-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.input-name-scale{
+    transition: 1s;
+    scale: 0;
+}
+.input-name-display{
+    display: none;
+}
+input{
+    padding: 2px;
+    margin-left: 4px;
+}
+button{
+    width: 25px;
+    height: 25px;
+    background-color: #b1b1b1;
+    margin-left: 4px;
+    cursor: pointer;
+}
+.hello{
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
