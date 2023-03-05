@@ -35,10 +35,16 @@ textarea:focus, input:focus{
 }
 button{
     width: 100px;
-    height: 70px;
-    background-color: #b1b1b1;
+    height: 50px;
+    background-color: #b1b1b152;
     margin-left: 4px;
     cursor: pointer;
+    border: none;
+    color: #b1b1b1;
+}
+button:hover{
+    background-color: #b1b1b122;
+    color: #b1b1b1;
 }
 .hello{
     color: white;
