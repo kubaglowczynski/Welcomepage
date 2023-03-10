@@ -1,17 +1,18 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 body{
     background-color: #1b1b1b;
     color: #fff;
 }
 .input-name{
+    height: 100vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 .input-name-scale{
     transition: 1s;
@@ -21,11 +22,11 @@ body{
     display: none;
 }
 input{
-    padding: 2px;
-    margin-left: 4px;
-    font-size: 50px;
     border: none;
     color: #b1b1b1;
+    font-size: 50px;
+    margin-left: 4px;
+    padding: 2px;
 }
 input[type="text"], textarea {
     background-color : transparent; 
@@ -34,13 +35,13 @@ textarea:focus, input:focus{
     outline: none;
 }
 button{
-    width: 100px;
-    height: 50px;
     background-color: #b1b1b152;
-    margin-left: 4px;
-    cursor: pointer;
     border: none;
     color: #b1b1b1;
+    cursor: pointer;
+    margin-left: 4px;
+    width: 100px;
+    height: 50px;
 }
 button:hover{
     background-color: #b1b1b122;
@@ -49,8 +50,9 @@ button:hover{
 .hello{
     color: white;
     font-size: 50px;
+    height: 100vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
