@@ -1,4 +1,3 @@
-var nameVal = document.getElementById("name").value;
 var buttonSub = document.getElementById("submit");
 var inputEnter = document.getElementById("name");
 
