@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "rootDir": "src/script.ts",
+        "outDir": "./dist",
+        "target": "ES2015"
+    }
+}

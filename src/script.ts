@@ -1,5 +1,5 @@
-var buttonSub = document.getElementById("submit");
-var inputEnter = document.getElementById("name");
+var buttonSub: HTMLButtonElement = document.querySelector("#submit");
+var inputEnter: HTMLInputElement = document.querySelector("#name");
 
 buttonSub.addEventListener("click", function(){
     var input = document.querySelector(".input-name");
@@ -7,8 +7,8 @@ buttonSub.addEventListener("click", function(){
 
     setTimeout(() => { input.classList.add("input-name-display")}, 1000);
     
-    var nameVal = document.getElementById("name").value;
-    var name = document.querySelector(".hello");
+    let nameVal: string = (<HTMLInputElement>document.querySelector("#name")).value;
+    const name: HTMLElement = document.querySelector(".hello");
     name.innerHTML = 'hello '+nameVal;
 
     window.scrollTo({
@@ -25,8 +25,8 @@ inputEnter.addEventListener("keypress", function(event){
 
     setTimeout(() => { input.classList.add("input-name-display")}, 1000);
     
-    var nameVal = document.getElementById("name").value;
-    var name = document.querySelector(".hello");
+    let nameVal: string = (<HTMLInputElement>document.querySelector("#name")).value;
+    const name: HTMLElement = document.querySelector(".hello");
     name.innerHTML = 'hello '+nameVal;
 
     window.scrollTo({
